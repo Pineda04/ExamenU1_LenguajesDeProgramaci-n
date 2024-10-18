@@ -4,7 +4,6 @@ using Examen_U1_Lenguajes.Dtos.Departments;
 using Examen_U1_Lenguajes.Dtos.JobTitles;
 using Examen_U1_Lenguajes.Dtos.PermissionTypes;
 using Examen_U1_Lenguajes.Dtos.Requests;
-using Examen_U1_Lenguajes.Dtos.Users;
 
 namespace Examen_U1_Lenguajes.Helpers
 {
@@ -15,7 +14,6 @@ namespace Examen_U1_Lenguajes.Helpers
             MapsForJobTitles();
             MapsForDepartments();
             MapsForPermissionTypes();
-            MapsForUsers();
             MapsForRequests();
         }
 
@@ -24,13 +22,6 @@ namespace Examen_U1_Lenguajes.Helpers
             CreateMap<RequestEntity, RequestDto>();
             CreateMap<RequestCreateDto, RequestEntity>();
             CreateMap<RequestEditDto, RequestEntity>();
-        }
-
-        private void MapsForUsers()
-        {
-            CreateMap<UserEntity, UserDto>();
-            CreateMap<UserCreateDto, UserEntity>();
-            CreateMap<UserEditDto, UserEntity>();
         }
 
         private void MapsForPermissionTypes()

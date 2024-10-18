@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Examen_U1_Lenguajes.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class test : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,6 +29,23 @@ namespace Examen_U1_Lenguajes.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_departments", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "permission_types",
+                schema: "dbo",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
+                    created_by = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    created_date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    updated_by = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    updated_date = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_permission_types", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -56,11 +73,46 @@ namespace Examen_U1_Lenguajes.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "requests",
+                schema: "dbo",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    user_id = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    permission_type_id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    start_date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    end_date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    reason = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    is_approved = table.Column<bool>(type: "bit", nullable: false),
+                    created_by = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    created_date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    updated_by = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true),
+                    updated_date = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_requests", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_requests_permission_types_permission_type_id",
+                        column: x => x.permission_type_id,
+                        principalSchema: "dbo",
+                        principalTable: "permission_types",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_job_titles_department_id",
                 schema: "dbo",
                 table: "job_titles",
                 column: "department_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_requests_permission_type_id",
+                schema: "dbo",
+                table: "requests",
+                column: "permission_type_id");
         }
 
         /// <inheritdoc />
@@ -71,7 +123,15 @@ namespace Examen_U1_Lenguajes.Migrations
                 schema: "dbo");
 
             migrationBuilder.DropTable(
+                name: "requests",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
                 name: "departments",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
+                name: "permission_types",
                 schema: "dbo");
         }
     }

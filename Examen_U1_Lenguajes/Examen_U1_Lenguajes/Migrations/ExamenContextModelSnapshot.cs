@@ -100,6 +100,100 @@ namespace Examen_U1_Lenguajes.Migrations
                     b.ToTable("job_titles", "dbo");
                 });
 
+            modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.PermissionTypeEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_date");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("name");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
+                        .HasColumnName("updated_by");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("updated_date");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("permission_types", "dbo");
+                });
+
+            modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.RequestEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_date");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("end_date");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_approved");
+
+                    b.Property<Guid>("PermissionTypeId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("permission_type_id");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)")
+                        .HasColumnName("reason");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("start_date");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
+                        .HasColumnName("updated_by");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("updated_date");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PermissionTypeId");
+
+                    b.ToTable("requests", "dbo");
+                });
+
             modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.JobTitleEntity", b =>
                 {
                     b.HasOne("Examen_U1_Lenguajes.Database.Entities.DepartmentEntity", "Department")
@@ -111,9 +205,25 @@ namespace Examen_U1_Lenguajes.Migrations
                     b.Navigation("Department");
                 });
 
+            modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.RequestEntity", b =>
+                {
+                    b.HasOne("Examen_U1_Lenguajes.Database.Entities.PermissionTypeEntity", "PermissionType")
+                        .WithMany("Requests")
+                        .HasForeignKey("PermissionTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PermissionType");
+                });
+
             modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.DepartmentEntity", b =>
                 {
                     b.Navigation("JobTitles");
+                });
+
+            modelBuilder.Entity("Examen_U1_Lenguajes.Database.Entities.PermissionTypeEntity", b =>
+                {
+                    b.Navigation("Requests");
                 });
 #pragma warning restore 612, 618
         }

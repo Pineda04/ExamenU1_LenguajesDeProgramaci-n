@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {}
+    "C:\\Users\\Carlos Pineda\\Downloads\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {
+    "C:\\Users\\Carlos Pineda\\Downloads\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Pineda\\Downloads\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
         "projectName": "Examen_U1_Lenguajes",
-        "projectPath": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
+        "projectPath": "C:\\Users\\Carlos Pineda\\Downloads\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
         "packagesPath": "C:\\Users\\Carlos Pineda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Pineda\\Downloads\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Pineda\\AppData\\Roaming\\NuGet\\NuGet.Config",

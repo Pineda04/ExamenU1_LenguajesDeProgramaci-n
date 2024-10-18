@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc6a44e4ca9c9daa476132cfa74f05b4a151eb3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0751f42cea1798ef47c8b3a3222f3b99c263f43b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

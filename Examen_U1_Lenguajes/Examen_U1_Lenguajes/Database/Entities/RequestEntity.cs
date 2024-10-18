@@ -7,14 +7,12 @@ using System.Threading.Tasks;
 
 namespace Examen_U1_Lenguajes.Database.Entities
 {
-    [Table("requests")]
+    [Table("requests", Schema = "dbo")]
     public class RequestEntity : BaseEntity
     {
         // Id del usuario
         [Column("user_id")]
-        public Guid UserId { get; set; }
-        [ForeignKey(nameof(UserId))]
-        public virtual UserEntity User { get; set; }
+        public string UserId { get; set; }
 
         // Id del tipo de permiso
         [Column("permission_type_id")]
