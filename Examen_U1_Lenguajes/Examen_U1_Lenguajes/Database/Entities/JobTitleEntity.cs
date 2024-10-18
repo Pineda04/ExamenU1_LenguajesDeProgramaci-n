@@ -13,9 +13,9 @@ namespace Examen_U1_Lenguajes.Database.Entities
         public string Name { get; set; }
 
         // Id del departamento
-        // [Column("department_id")]
-        // public Guid DepartmentId { get; set; }
-        // [ForeignKey(nameof(DepartmentId))]
-        // public virtual DepartmentEntity Department { get; set; }
+        [Column("department_id")]
+        public Guid DepartmentId { get; set; }
+        [ForeignKey(nameof(DepartmentId))]
+        public virtual DepartmentEntity Department { get; set; }
     }
 }

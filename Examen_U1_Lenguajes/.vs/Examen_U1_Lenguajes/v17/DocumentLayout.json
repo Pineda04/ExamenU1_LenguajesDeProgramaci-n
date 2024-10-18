@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|c:\\users\\carlos pineda\\documents\\examen u1 - lenguajes\\examen_u1_lenguajes\\examen_u1_lenguajes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|solutionrelative:examen_u1_lenguajes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|c:\\users\\carlos pineda\\documents\\examen u1 - lenguajes\\examen_u1_lenguajes\\examen_u1_lenguajes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|solutionrelative:examen_u1_lenguajes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|c:\\users\\carlos pineda\\documents\\examen u1 - lenguajes\\examen_u1_lenguajes\\examen_u1_lenguajes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|solutionrelative:examen_u1_lenguajes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|c:\\users\\carlos pineda\\documents\\examen u1 - lenguajes\\examen_u1_lenguajes\\examen_u1_lenguajes\\controllers\\jobtitlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|solutionrelative:examen_u1_lenguajes\\controllers\\jobtitlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|c:\\users\\carlos pineda\\documents\\examen u1 - lenguajes\\examen_u1_lenguajes\\examen_u1_lenguajes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E751C59-2ED1-441B-B5E1-4EF3F87F2C7A}|Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj|solutionrelative:examen_u1_lenguajes\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241018074312_init.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs",
+              "RelativeDocumentMoniker": "Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs",
+              "ToolTip": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs",
+              "RelativeToolTip": "Examen_U1_Lenguajes\\Migrations\\20241018074312_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:43:12.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Examen_U1_Lenguajes\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\appsettings.Development.json",
+              "RelativeToolTip": "Examen_U1_Lenguajes\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T07:39:20.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "JobTitlesController.cs",
               "DocumentMoniker": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Controllers\\JobTitlesController.cs",
               "RelativeDocumentMoniker": "Examen_U1_Lenguajes\\Controllers\\JobTitlesController.cs",
@@ -45,13 +79,14 @@
               "RelativeDocumentMoniker": "Examen_U1_Lenguajes\\Startup.cs",
               "ToolTip": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Startup.cs",
               "RelativeToolTip": "Examen_U1_Lenguajes\\Startup.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T01:13:28.19Z"
+              "WhenOpened": "2024-10-18T01:13:28.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Program.cs",
               "RelativeDocumentMoniker": "Examen_U1_Lenguajes\\Program.cs",

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Examen_U1_Lenguajes.Dtos.Departments;
 
 namespace Examen_U1_Lenguajes.Dtos.JobTitles
 {
@@ -11,6 +12,6 @@ namespace Examen_U1_Lenguajes.Dtos.JobTitles
         public string Name { get; set; }
 
         // Departamento al que pertenece ese puesto
-        // public virtual DepartmentDto Department { get; set; }
+        public Guid DepartmentId { get; set; }
     }
 }

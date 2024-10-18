@@ -1,3 +1,5 @@
+using Examen_U1_Lenguajes.Dtos.Departments;
+
 namespace Examen_U1_Lenguajes.Dtos.JobTitles
 {
     public class JobTitleDto
@@ -6,6 +8,6 @@ namespace Examen_U1_Lenguajes.Dtos.JobTitles
 
         public string Name { get; set; }
 
-        public Guid DepartmentId { get; set; }
+        public virtual DepartmentDto Department { get; set; }
     }
 }
