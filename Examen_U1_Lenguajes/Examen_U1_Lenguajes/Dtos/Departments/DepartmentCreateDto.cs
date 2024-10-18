@@ -10,7 +10,7 @@ namespace Examen_U1_Lenguajes.Dtos.Departments
     {
         // Nombre del departamento
         [Display(Name = "nombre")]
-        [StringLength(75, ErrorMessage = "El {0} del departamento debe tener menos de {1} caracteres.")]
+        [StringLength(5, ErrorMessage = "El {0} del departamento debe tener menos de {1} caracteres.")]
         [Required(ErrorMessage = "El {0} del departamento es obligatorio.")]
         public string Name { get; set; }
     }

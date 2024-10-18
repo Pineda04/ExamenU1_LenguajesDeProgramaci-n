@@ -1,0 +1,18 @@
+meta {
+  name: Create
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{PATH}}/permission_types
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "Id": "7fbb8aa1-d6c7-48a7-9e62-28cfc87b46ab",
+      "name": "Permiso por Vacaciones"
+  }
+}

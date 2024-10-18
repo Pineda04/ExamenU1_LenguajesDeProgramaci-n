@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 
 namespace Examen_U1_Lenguajes.Database.Entities
 {
@@ -13,5 +14,8 @@ namespace Examen_U1_Lenguajes.Database.Entities
         public string Name { get; set; }
 
         public virtual IEnumerable<JobTitleEntity> JobTitles { get; set; }
+
+        public virtual IdentityUser CreatedByUser { get; set; }
+        public virtual IdentityUser UpdatedByUser { get; set; }
     }
 }

@@ -1,0 +1,22 @@
+meta {
+  name: Create
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{PATH}}/requests
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "userId": "223e4567-e89b-12d3-a456-426614174000",
+      "permissionTypeId": "60e6e125-871d-47d1-ca41-08dcef7e1ac2",
+      "startDate": "2024-11-01T09:00:00.000Z",
+      "endDate": "2024-11-30T17:00:00.000Z",
+      "reason": "Maternidad",
+      "is_Approved": true
+    }
+}

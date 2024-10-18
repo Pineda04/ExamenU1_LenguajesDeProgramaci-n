@@ -7,6 +7,7 @@ namespace Examen_U1_Lenguajes.Controllers
 {
     [ApiController]
     [Route("api/departments")]
+    
     public class DepartmentsController : ControllerBase
     {
         private readonly IDepartmentsService _departmentsService;

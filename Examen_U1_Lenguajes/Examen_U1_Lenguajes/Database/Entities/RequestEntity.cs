@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace Examen_U1_Lenguajes.Database.Entities
 {
@@ -11,6 +12,7 @@ namespace Examen_U1_Lenguajes.Database.Entities
     public class RequestEntity : BaseEntity
     {
         // Id del usuario
+        [StringLength(100)]
         [Column("user_id")]
         public string UserId { get; set; }
 
@@ -18,7 +20,7 @@ namespace Examen_U1_Lenguajes.Database.Entities
         [Column("permission_type_id")]
         public Guid PermissionTypeId { get; set; }
         [ForeignKey(nameof(PermissionTypeId))]
-        public virtual PermissionTypeEntity PermissionType { get; set; }       
+        public virtual PermissionTypeEntity PermissionType { get; set; }
 
         // Fecha Inicio
         [Column("start_date")]
@@ -37,5 +39,8 @@ namespace Examen_U1_Lenguajes.Database.Entities
         // Estado
         [Column("is_approved")]
         public Boolean IsApproved { get; set; }
+
+        public virtual IdentityUser CreatedByUser { get; set; }
+        public virtual IdentityUser UpdatedByUser { get; set; }
     }
 }

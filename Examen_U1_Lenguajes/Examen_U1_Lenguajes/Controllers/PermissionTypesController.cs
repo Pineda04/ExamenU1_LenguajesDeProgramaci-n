@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Examen_U1_Lenguajes.Dtos.Common;
 using Examen_U1_Lenguajes.Dtos.PermissionTypes;
 using Examen_U1_Lenguajes.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Examen_U1_Lenguajes.Controllers
 {
     [ApiController]
     [Route("api/permission_types")]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     public class PermissionTypesController : ControllerBase
     {
         private readonly IPermissionTypesService _permissionTypesService;

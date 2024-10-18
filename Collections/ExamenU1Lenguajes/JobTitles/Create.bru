@@ -1,0 +1,18 @@
+meta {
+  name: Create
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{PATH}}/job_titles
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Especialista en Marketing Digital",
+    "departmentId": "901407b9-5501-43a5-7c92-08dcef7d6985"
+  }
+}
