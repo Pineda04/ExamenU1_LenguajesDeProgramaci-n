@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa9a922eefc6f82f5fba090be89e4ccea2bb2aaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d1619b5a805dd0ddb35bfefba632e600ef8de38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Examen_U1_Lenguajes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

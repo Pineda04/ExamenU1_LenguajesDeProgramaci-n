@@ -32,6 +32,7 @@ namespace Examen_U1_Lenguajes
             services.AddTransient<IAuthService, AuthService>();
             services.AddTransient<IJobTitlesService, JobTitlesService>();
             services.AddTransient<IDepartmentsService, DepartmentsService>();
+            services.AddTransient<IPermissionTypesService, PermissionTypesService>();
 
             // Add AutoMapper
             services.AddAutoMapper(typeof(AutoMapperProfile));
