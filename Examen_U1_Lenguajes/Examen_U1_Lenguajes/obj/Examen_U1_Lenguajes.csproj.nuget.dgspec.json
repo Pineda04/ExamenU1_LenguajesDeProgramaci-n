@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ever\\Desktop\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {}
+    "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ever\\Desktop\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {
+    "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ever\\Desktop\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
         "projectName": "Examen_U1_Lenguajes",
-        "projectPath": "C:\\Users\\Ever\\Desktop\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
-        "packagesPath": "C:\\Users\\Ever\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ever\\Desktop\\ExamenU1_LenguajesDeProgramaci-n\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\obj\\",
+        "projectPath": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes.csproj",
+        "packagesPath": "C:\\Users\\Carlos Pineda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Pineda\\Documents\\Examen U1 - Lenguajes\\Examen_U1_Lenguajes\\Examen_U1_Lenguajes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ever\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos Pineda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

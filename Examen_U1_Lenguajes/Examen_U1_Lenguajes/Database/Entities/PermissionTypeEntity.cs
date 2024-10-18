@@ -12,6 +12,6 @@ namespace Examen_U1_Lenguajes.Database.Entities
         [Column("name")]
         public string Name { get; set; }
 
-        // public virtual IEnumerable<ResquestEntity> Resquests { get; set; }
+        // public virtual IEnumerable<ResquestEntity> Requests { get; set; }
     }
 }

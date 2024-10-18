@@ -48,6 +48,6 @@ namespace Examen_U1_Lenguajes.Database
         public DbSet<DepartmentEntity> Departments { get; set; }
         public DbSet<PermissionTypeEntity> Permissions { get; set; }
         public DbSet<UserEntity> Users { get; set; }
-
+        public DbSet<RequestEntity> Requests { get; set; }
     }
 }
